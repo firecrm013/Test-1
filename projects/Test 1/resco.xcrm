@@ -928,6 +928,8 @@
         <property schema="xcrm_date1"/>
         <property schema="xcrm_date2"/>
         <property schema="xcrm_date3"/>
+        <property schema="xcrm_date4"/>
+        <property schema="xcrm_date5"/>
       </properties>
       <indexes>
         <index schema="idx_msdyn_customerasset_ownerid" issystem="true">

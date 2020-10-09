@@ -11,6 +11,7 @@
   <OrderBy>msdyn_name</OrderBy>
   <SerializedBindings>
     <string>msdyn_customerassetid</string>
+    <string>msdyn_masterasset</string>
     <string>msdyn_name</string>
     <string>msdyn_parentasset</string>
     <string>msdyn_product</string>
@@ -43,8 +44,8 @@
           <CellKind>0</CellKind>
           <Anchor>13</Anchor>
         </CellTemplate>
-        <CellTemplate SchemaName="msdyn_product">
-          <StyleName>gray</StyleName>
+        <CellTemplate SchemaName="msdyn_name">
+          <StyleName>r_gray</StyleName>
           <Bounds>120,26,116,11</Bounds>
           <CellKind>0</CellKind>
           <Anchor>9</Anchor>
