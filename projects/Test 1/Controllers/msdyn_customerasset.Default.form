@@ -118,14 +118,14 @@
           <LookupViews>&lt;lookup&gt;&lt;extra/&gt;&lt;extra&gt;&lt;views&gt;msdyn_customerasset.Default&lt;/views&gt;&lt;/extra&gt;&lt;/lookup&gt;</LookupViews>
         </DetailItem>
         <DetailItem SchemaName="ownerid"/>
-      </SerializedChildren>
-    </FormTab>
-    <FormTab xsi:type="DetailTab">
-      <Name>Test</Name>
-      <SerializedChildren>
+        <DetailItem separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
         <DetailItem SchemaName="xcrm_date1"/>
         <DetailItem SchemaName="xcrm_date2"/>
         <DetailItem SchemaName="xcrm_date3"/>
+        <DetailItem SchemaName="xcrm_date4"/>
+        <DetailItem SchemaName="xcrm_date5"/>
       </SerializedChildren>
     </FormTab>
     <FormTab xsi:type="IFrameTab">
